@@ -5193,7 +5193,7 @@
 											"height": 13,
 											"alpha": -0.23454060886277028,
 											"distance": 116.18089343777659,
-											"text": "3.1.1 : [TotalMember == Max]: getJobListDetails()"
+											"text": "3.1.1 : [TotalMember == Max]: finish()"
 										},
 										{
 											"_type": "NodeLabelView",
@@ -5406,7 +5406,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH/7C1+mJVg9s="
 							},
-							"name": "[TotalMember == Max]: getJobListDetails()",
+							"name": "[TotalMember == Max]: finish()",
 							"source": {
 								"$ref": "AAAAAAGH/7kBSGO/fcw="
 							},
