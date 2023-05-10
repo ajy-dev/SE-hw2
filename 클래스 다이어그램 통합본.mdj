@@ -1571,7 +1571,7 @@
 											"top": 172,
 											"width": 143,
 											"height": 13,
-											"text": "ApplyCancleUI"
+											"text": "ApplyCancelUI"
 										},
 										{
 											"_type": "LabelView",
@@ -1656,7 +1656,7 @@
 											"top": 205,
 											"width": 143,
 											"height": 13,
-											"text": "+selectCancle()",
+											"text": "+selectCancel()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1993,7 +1993,7 @@
 											"top": 180,
 											"width": 153.16259765625,
 											"height": 13,
-											"text": "ApplyCancle"
+											"text": "ApplyCancel"
 										},
 										{
 											"_type": "LabelView",
@@ -2080,7 +2080,7 @@
 											"top": 213,
 											"width": 153.16259765625,
 											"height": 13,
-											"text": "+cancleApply()",
+											"text": "+cancelApply()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -2370,7 +2370,7 @@
 											"font": "Arial;13;0",
 											"left": 125,
 											"top": 653,
-											"width": 173.037109375,
+											"width": 178.2041015625,
 											"height": 13,
 											"text": "«boundary»"
 										},
@@ -2383,7 +2383,7 @@
 											"font": "Arial;13;1",
 											"left": 125,
 											"top": 668,
-											"width": 173.037109375,
+											"width": 178.2041015625,
 											"height": 13,
 											"text": "SignUpUI"
 										},
@@ -2397,7 +2397,7 @@
 											"font": "Arial;13;0",
 											"left": -1630,
 											"top": 332,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -2418,7 +2418,7 @@
 									"font": "Arial;13;0",
 									"left": 120,
 									"top": 648,
-									"width": 183.037109375,
+									"width": 188.2041015625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBRJ7oqocAZg="
@@ -2445,7 +2445,7 @@
 									"font": "Arial;13;0",
 									"left": 120,
 									"top": 686,
-									"width": 183.037109375,
+									"width": 188.2041015625,
 									"height": 10
 								},
 								{
@@ -2470,7 +2470,7 @@
 											"font": "Arial;13;0",
 											"left": 125,
 											"top": 701,
-											"width": 173.037109375,
+											"width": 178.2041015625,
 											"height": 13,
 											"text": "+startInterface()",
 											"horizontalAlignment": 0
@@ -2487,7 +2487,7 @@
 											"font": "Arial;13;0",
 											"left": 125,
 											"top": 716,
-											"width": 173.037109375,
+											"width": 178.2041015625,
 											"height": 13,
 											"text": "+selectSignUp()",
 											"horizontalAlignment": 0
@@ -2504,7 +2504,7 @@
 											"font": "Arial;13;0",
 											"left": 125,
 											"top": 731,
-											"width": 173.037109375,
+											"width": 178.2041015625,
 											"height": 13,
 											"text": "+selectCompanyMember()",
 											"horizontalAlignment": 0
@@ -2521,7 +2521,7 @@
 											"font": "Arial;13;0",
 											"left": 125,
 											"top": 746,
-											"width": 173.037109375,
+											"width": 178.2041015625,
 											"height": 13,
 											"text": "+selectMember()",
 											"horizontalAlignment": 0
@@ -2538,7 +2538,7 @@
 											"font": "Arial;13;0",
 											"left": 125,
 											"top": 761,
-											"width": 173.037109375,
+											"width": 178.2041015625,
 											"height": 13,
 											"text": "+insertCompanyMemberInfo()",
 											"horizontalAlignment": 0
@@ -2555,7 +2555,7 @@
 											"font": "Arial;13;0",
 											"left": 125,
 											"top": 776,
-											"width": 173.037109375,
+											"width": 178.2041015625,
 											"height": 13,
 											"text": "+insertMemberInfo()",
 											"horizontalAlignment": 0
@@ -2564,7 +2564,7 @@
 									"font": "Arial;13;0",
 									"left": 120,
 									"top": 696,
-									"width": 183.037109375,
+									"width": 188.2041015625,
 									"height": 98
 								},
 								{
@@ -2604,7 +2604,7 @@
 							"containerChangeable": true,
 							"left": 120,
 							"top": 648,
-							"width": 183.037109375,
+							"width": 188.2041015625,
 							"height": 146,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBRJ7oqobXdg="
@@ -2678,7 +2678,7 @@
 											"font": "Arial;13;0",
 											"left": 80,
 											"top": 18,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -2917,7 +2917,7 @@
 											"font": "Arial;13;0",
 											"left": 405,
 											"top": 677,
-											"width": 167.2607421875,
+											"width": 171.38037109375,
 											"height": 13,
 											"text": "«control»"
 										},
@@ -2930,7 +2930,7 @@
 											"font": "Arial;13;1",
 											"left": 405,
 											"top": 692,
-											"width": 167.2607421875,
+											"width": 171.38037109375,
 											"height": 13,
 											"text": "SignUP"
 										},
@@ -2944,7 +2944,7 @@
 											"font": "Arial;13;0",
 											"left": -672,
 											"top": 98,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -2965,7 +2965,7 @@
 									"font": "Arial;13;0",
 									"left": 400,
 									"top": 672,
-									"width": 177.2607421875,
+									"width": 181.38037109375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBRN0e6qdiTA="
@@ -2992,7 +2992,7 @@
 									"font": "Arial;13;0",
 									"left": 400,
 									"top": 710,
-									"width": 177.2607421875,
+									"width": 181.38037109375,
 									"height": 10
 								},
 								{
@@ -3017,7 +3017,7 @@
 											"font": "Arial;13;0",
 											"left": 405,
 											"top": 725,
-											"width": 167.2607421875,
+											"width": 171.38037109375,
 											"height": 13,
 											"text": "+addNewCompanyMember()",
 											"horizontalAlignment": 0
@@ -3034,7 +3034,7 @@
 											"font": "Arial;13;0",
 											"left": 405,
 											"top": 740,
-											"width": 167.2607421875,
+											"width": 171.38037109375,
 											"height": 13,
 											"text": "+addNewMember()",
 											"horizontalAlignment": 0
@@ -3043,7 +3043,7 @@
 									"font": "Arial;13;0",
 									"left": 400,
 									"top": 720,
-									"width": 177.2607421875,
+									"width": 181.38037109375,
 									"height": 38
 								},
 								{
@@ -3083,7 +3083,7 @@
 							"containerChangeable": true,
 							"left": 400,
 							"top": 672,
-							"width": 177.2607421875,
+							"width": 181.38037109375,
 							"height": 86,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBRN0e6qcbqs="
@@ -3157,7 +3157,7 @@
 											"font": "Arial;13;0",
 											"left": -32,
 											"top": 288,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -3370,7 +3370,7 @@
 											"font": "Arial;13;0",
 											"left": -32,
 											"top": 304,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -3573,7 +3573,7 @@
 											"font": "Arial;13;0",
 											"left": 165,
 											"top": 853,
-											"width": 107.275390625,
+											"width": 109.9541015625,
 											"height": 13,
 											"text": "«boundary»"
 										},
@@ -3586,7 +3586,7 @@
 											"font": "Arial;13;1",
 											"left": 165,
 											"top": 868,
-											"width": 107.275390625,
+											"width": 109.9541015625,
 											"height": 13,
 											"text": "WithdrawalUI"
 										},
@@ -3600,7 +3600,7 @@
 											"font": "Arial;13;0",
 											"left": -190,
 											"top": -100,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -3621,7 +3621,7 @@
 									"font": "Arial;13;0",
 									"left": 160,
 									"top": 848,
-									"width": 117.275390625,
+									"width": 119.9541015625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBSR2WKw48vc="
@@ -3648,7 +3648,7 @@
 									"font": "Arial;13;0",
 									"left": 160,
 									"top": 886,
-									"width": 117.275390625,
+									"width": 119.9541015625,
 									"height": 10
 								},
 								{
@@ -3673,7 +3673,7 @@
 											"font": "Arial;13;0",
 											"left": 165,
 											"top": 901,
-											"width": 107.275390625,
+											"width": 109.9541015625,
 											"height": 13,
 											"text": "+startInterface()",
 											"horizontalAlignment": 0
@@ -3690,7 +3690,7 @@
 											"font": "Arial;13;0",
 											"left": 165,
 											"top": 916,
-											"width": 107.275390625,
+											"width": 109.9541015625,
 											"height": 13,
 											"text": "+selectWithdrawl()",
 											"horizontalAlignment": 0
@@ -3699,7 +3699,7 @@
 									"font": "Arial;13;0",
 									"left": 160,
 									"top": 896,
-									"width": 117.275390625,
+									"width": 119.9541015625,
 									"height": 38
 								},
 								{
@@ -3739,7 +3739,7 @@
 							"containerChangeable": true,
 							"left": 160,
 							"top": 848,
-							"width": 117.275390625,
+							"width": 119.9541015625,
 							"height": 86,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBSR2WKw3j3c="
@@ -3786,7 +3786,7 @@
 											"font": "Arial;13;0",
 											"left": 437,
 											"top": 853,
-											"width": 70.43359375,
+											"width": 73.759765625,
 											"height": 13,
 											"text": "«control»"
 										},
@@ -3799,7 +3799,7 @@
 											"font": "Arial;13;1",
 											"left": 437,
 											"top": 868,
-											"width": 70.43359375,
+											"width": 73.759765625,
 											"height": 13,
 											"text": "Withdrawl"
 										},
@@ -3813,7 +3813,7 @@
 											"font": "Arial;13;0",
 											"left": 16,
 											"top": 14,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -3834,7 +3834,7 @@
 									"font": "Arial;13;0",
 									"left": 432,
 									"top": 848,
-									"width": 80.43359375,
+									"width": 83.759765625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBSTtJKxuYHI="
@@ -3861,7 +3861,7 @@
 									"font": "Arial;13;0",
 									"left": 432,
 									"top": 886,
-									"width": 80.43359375,
+									"width": 83.759765625,
 									"height": 10
 								},
 								{
@@ -3886,7 +3886,7 @@
 											"font": "Arial;13;0",
 											"left": 437,
 											"top": 901,
-											"width": 70.43359375,
+											"width": 73.759765625,
 											"height": 13,
 											"text": "+withdrawl()",
 											"horizontalAlignment": 0
@@ -3895,7 +3895,7 @@
 									"font": "Arial;13;0",
 									"left": 432,
 									"top": 896,
-									"width": 80.43359375,
+									"width": 83.759765625,
 									"height": 23
 								},
 								{
@@ -3935,7 +3935,7 @@
 							"containerChangeable": true,
 							"left": 432,
 							"top": 848,
-							"width": 80.43359375,
+							"width": 83.759765625,
 							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBSTtJKxt5DM="
@@ -3982,7 +3982,7 @@
 											"font": "Arial;13;0",
 											"left": 173,
 											"top": 981,
-											"width": 92.853515625,
+											"width": 94.580078125,
 											"height": 13,
 											"text": "«boundary»"
 										},
@@ -3995,7 +3995,7 @@
 											"font": "Arial;13;1",
 											"left": 173,
 											"top": 996,
-											"width": 92.853515625,
+											"width": 94.580078125,
 											"height": 13,
 											"text": "LogOutUI"
 										},
@@ -4009,7 +4009,7 @@
 											"font": "Arial;13;0",
 											"left": 96,
 											"top": -230,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -4030,7 +4030,7 @@
 									"font": "Arial;13;0",
 									"left": 168,
 									"top": 976,
-									"width": 102.853515625,
+									"width": 104.580078125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBSh9iaz2aGo="
@@ -4057,7 +4057,7 @@
 									"font": "Arial;13;0",
 									"left": 168,
 									"top": 1014,
-									"width": 102.853515625,
+									"width": 104.580078125,
 									"height": 10
 								},
 								{
@@ -4082,7 +4082,7 @@
 											"font": "Arial;13;0",
 											"left": 173,
 											"top": 1029,
-											"width": 92.853515625,
+											"width": 94.580078125,
 											"height": 13,
 											"text": "+startInterface()",
 											"horizontalAlignment": 0
@@ -4099,7 +4099,7 @@
 											"font": "Arial;13;0",
 											"left": 173,
 											"top": 1044,
-											"width": 92.853515625,
+											"width": 94.580078125,
 											"height": 13,
 											"text": "+selectLogOut()",
 											"horizontalAlignment": 0
@@ -4108,7 +4108,7 @@
 									"font": "Arial;13;0",
 									"left": 168,
 									"top": 1024,
-									"width": 102.853515625,
+									"width": 104.580078125,
 									"height": 38
 								},
 								{
@@ -4148,7 +4148,7 @@
 							"containerChangeable": true,
 							"left": 168,
 							"top": 976,
-							"width": 102.853515625,
+							"width": 104.580078125,
 							"height": 86,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBSh9iaz1/Ac="
@@ -4195,7 +4195,7 @@
 											"font": "Arial;13;0",
 											"left": 437,
 											"top": 981,
-											"width": 73.33447265625,
+											"width": 76.984375,
 											"height": 13,
 											"text": "«control»"
 										},
@@ -4208,7 +4208,7 @@
 											"font": "Arial;13;1",
 											"left": 437,
 											"top": 996,
-											"width": 73.33447265625,
+											"width": 76.984375,
 											"height": 13,
 											"text": "LogOut"
 										},
@@ -4222,7 +4222,7 @@
 											"font": "Arial;13;0",
 											"left": 30,
 											"top": -112,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -4243,7 +4243,7 @@
 									"font": "Arial;13;0",
 									"left": 432,
 									"top": 976,
-									"width": 83.33447265625,
+									"width": 86.984375,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBSjFp60rCvI="
@@ -4270,7 +4270,7 @@
 									"font": "Arial;13;0",
 									"left": 432,
 									"top": 1014,
-									"width": 83.33447265625,
+									"width": 86.984375,
 									"height": 10
 								},
 								{
@@ -4295,7 +4295,7 @@
 											"font": "Arial;13;0",
 											"left": 437,
 											"top": 1029,
-											"width": 73.33447265625,
+											"width": 76.984375,
 											"height": 13,
 											"text": "+tryLogOut()",
 											"horizontalAlignment": 0
@@ -4304,7 +4304,7 @@
 									"font": "Arial;13;0",
 									"left": 432,
 									"top": 1024,
-									"width": 83.33447265625,
+									"width": 86.984375,
 									"height": 23
 								},
 								{
@@ -4344,7 +4344,7 @@
 							"containerChangeable": true,
 							"left": 432,
 							"top": 976,
-							"width": 83.33447265625,
+							"width": 86.984375,
 							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBSjFp60q11M="
@@ -4606,7 +4606,7 @@
 											"font": "Arial;13;0",
 											"left": -56,
 											"top": -28,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -4819,7 +4819,7 @@
 											"font": "Arial;13;0",
 											"left": -1358,
 											"top": 1560,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -5015,7 +5015,7 @@
 											"font": "Arial;13;0",
 											"left": -122,
 											"top": -64,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -5228,7 +5228,7 @@
 											"font": "Arial;13;0",
 											"left": 38,
 											"top": -90,
-											"width": 80.9072265625,
+											"width": 85.0966796875,
 											"height": 13,
 											"text": "(from Model1)"
 										},
@@ -5651,7 +5651,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGIBQiFnKg4rJs="
 					},
-					"name": "ApplyCancleUI",
+					"name": "ApplyCancelUI",
 					"stereotype": "boundary",
 					"operations": [
 						{
@@ -5660,7 +5660,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIBQiFn6jQ9jg="
 							},
-							"name": "selectCancle"
+							"name": "selectCancel"
 						},
 						{
 							"_type": "UMLOperation",
@@ -5705,7 +5705,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGIBQiFnKg4rJs="
 					},
-					"name": "ApplyCancle",
+					"name": "ApplyCancel",
 					"stereotype": "control",
 					"operations": [
 						{
@@ -5714,7 +5714,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIBQiFn6jW4yQ="
 							},
-							"name": "cancleApply"
+							"name": "cancelApply"
 						}
 					]
 				},
