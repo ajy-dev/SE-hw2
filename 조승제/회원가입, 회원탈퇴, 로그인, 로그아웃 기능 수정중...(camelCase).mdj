@@ -4988,19 +4988,6 @@
 											}
 										},
 										{
-											"_type": "UMLNoteView",
-											"_id": "AAAAAAGH/29eMnz6994=",
-											"_parent": {
-												"$ref": "AAAAAAGH/uJIhk+8uC8="
-											},
-											"font": "Arial;13;0",
-											"left": 544,
-											"top": 64,
-											"width": 168,
-											"height": 56,
-											"text": "일반적인 회원의 ID를 의미하므로 nested message로 표현 x"
-										},
-										{
 											"_type": "UMLConnectorView",
 											"_id": "AAAAAAGH/3K/JYcrBKE=",
 											"_parent": {
@@ -5811,9 +5798,9 @@
 														"$ref": "AAAAAAGIBAknjNrGf+c="
 													},
 													"font": "Arial;13;0",
-													"left": 599.81005859375,
+													"left": 599.08642578125,
 													"top": 192,
-													"width": 147.3798828125,
+													"width": 148.8271484375,
 													"height": 13,
 													"alpha": 0.28605138863877155,
 													"distance": 53.16013544000805,
@@ -14314,12 +14301,12 @@
 												"$ref": "AAAAAAGH/1NsEPKel/Q="
 											},
 											"font": "Arial;13;0",
-											"left": 52.114501953125,
-											"top": 59.5,
+											"left": 55.114501953125,
+											"top": 47.5,
 											"width": 105.77099609375,
 											"height": 13,
-											"alpha": 1.5707963267948966,
-											"distance": 10,
+											"alpha": 1.4352681665619587,
+											"distance": 22.20360331117452,
 											"text": "2 : selectLogOut()"
 										},
 										{
