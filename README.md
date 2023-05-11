@@ -1,8 +1,10 @@
 
  # 홍익대학교 소프트웨어공학 team repository
  
- ~ 23.05.10 communication, class diagram 완성해오기   
- ~ 23.05.11 communication, class diagram merge 하기 / ppt 만들기
+ - [x] ~ 23.05.10 communication, class diagram 완성해오기   
+ - [x] ~ 23.05.11 communication, class diagram merge 하기 / ppt 만들기
+ - [ ] ~ 23.05.12 13시 까지 제출
+ 
  
  
  <br><br><br>
