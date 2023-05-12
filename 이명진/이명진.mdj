@@ -540,11 +540,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBE5uGEaPzCo="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": -624,
-											"top": 560,
-											"height": 13
+											"left": 165,
+											"top": 461,
+											"width": 148.4970703125,
+											"height": 13,
+											"text": "«entity»"
 										},
 										{
 											"_type": "LabelView",
@@ -554,7 +555,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 165,
-											"top": 463,
+											"top": 476,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "jobList"
@@ -591,7 +592,7 @@
 									"left": 160,
 									"top": 456,
 									"width": 158.4970703125,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBE5uGEaQUGI="
 									},
@@ -626,7 +627,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 165,
-											"top": 486,
+											"top": 499,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "+task",
@@ -643,7 +644,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 165,
-											"top": 501,
+											"top": 514,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "+numOfMem",
@@ -660,7 +661,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 165,
-											"top": 516,
+											"top": 529,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "+deadline",
@@ -669,7 +670,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 160,
-									"top": 481,
+									"top": 494,
 									"width": 158.4970703125,
 									"height": 53
 								},
@@ -694,7 +695,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 165,
-											"top": 539,
+											"top": 552,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "+getJobList()",
@@ -711,7 +712,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 165,
-											"top": 554,
+											"top": 567,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "+inputJobPostingDetails()",
@@ -746,7 +747,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 165,
-											"top": 569,
+											"top": 582,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "+getJobPost()",
@@ -763,7 +764,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 165,
-											"top": 584,
+											"top": 597,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "+updateJobPosting()",
@@ -780,7 +781,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 165,
-											"top": 599,
+											"top": 612,
 											"width": 148.4970703125,
 											"height": 13,
 											"text": "+removePostingJob()",
@@ -825,7 +826,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 160,
-									"top": 534,
+									"top": 547,
 									"width": 158.4970703125,
 									"height": 83
 								},
@@ -867,7 +868,7 @@
 							"left": 160,
 							"top": 456,
 							"width": 158.4970703125,
-							"height": 161,
+							"height": 174,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBE5uGEaPzCo="
 							},
@@ -910,11 +911,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBF0TxUbxMsw="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": -176,
-											"top": 32,
-											"height": 13
+											"left": 173,
+											"top": 269,
+											"width": 108.748046875,
+											"height": 13,
+											"text": "«control»"
 										},
 										{
 											"_type": "LabelView",
@@ -924,7 +926,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 173,
-											"top": 271,
+											"top": 284,
 											"width": 108.748046875,
 											"height": 13,
 											"text": "GetJobList"
@@ -961,7 +963,7 @@
 									"left": 168,
 									"top": 264,
 									"width": 118.748046875,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBF0Txkby/aY="
 									},
@@ -986,7 +988,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 168,
-									"top": 289,
+									"top": 302,
 									"width": 118.748046875,
 									"height": 10
 								},
@@ -1011,7 +1013,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 173,
-											"top": 304,
+											"top": 317,
 											"width": 108.748046875,
 											"height": 13,
 											"text": "+getJobListDetail()",
@@ -1020,7 +1022,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 168,
-									"top": 299,
+									"top": 312,
 									"width": 118.748046875,
 									"height": 23
 								},
@@ -1062,7 +1064,7 @@
 							"left": 168,
 							"top": 264,
 							"width": 118.748046875,
-							"height": 58,
+							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBF0TxUbxMsw="
 							},
@@ -1105,11 +1107,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBF6iPEdjTf4="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": -16,
-											"top": 48,
-											"height": 13
+											"left": 325,
+											"top": 269,
+											"width": 120.33251953125,
+											"height": 13,
+											"text": "«control»"
 										},
 										{
 											"_type": "LabelView",
@@ -1119,7 +1122,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 325,
-											"top": 271,
+											"top": 284,
 											"width": 120.33251953125,
 											"height": 13,
 											"text": "\bModifyJobList"
@@ -1156,7 +1159,7 @@
 									"left": 320,
 									"top": 264,
 									"width": 130.33251953125,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBF6iPEdkeys="
 									},
@@ -1181,7 +1184,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 320,
-									"top": 289,
+									"top": 302,
 									"width": 130.33251953125,
 									"height": 10
 								},
@@ -1206,7 +1209,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 304,
+											"top": 317,
 											"width": 120.33251953125,
 											"height": 13,
 											"text": "+showJobPost()",
@@ -1223,7 +1226,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 325,
-											"top": 319,
+											"top": 332,
 											"width": 120.33251953125,
 											"height": 13,
 											"text": "+updatePostingJob()",
@@ -1268,7 +1271,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 320,
-									"top": 299,
+									"top": 312,
 									"width": 130.33251953125,
 									"height": 38
 								},
@@ -1353,11 +1356,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBGKbfUe6FEs="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": -112,
-											"top": -16,
-											"height": 13
+											"left": 493,
+											"top": 269,
+											"width": 123.9189453125,
+											"height": 13,
+											"text": "«control»"
 										},
 										{
 											"_type": "LabelView",
@@ -1367,7 +1371,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 493,
-											"top": 271,
+											"top": 284,
 											"width": 123.9189453125,
 											"height": 13,
 											"text": "RemoveJobList"
@@ -1404,7 +1408,7 @@
 									"left": 488,
 									"top": 264,
 									"width": 133.9189453125,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBGKbfUe7OjM="
 									},
@@ -1429,7 +1433,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 488,
-									"top": 289,
+									"top": 302,
 									"width": 133.9189453125,
 									"height": 10
 								},
@@ -1454,7 +1458,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 493,
-											"top": 304,
+											"top": 317,
 											"width": 123.9189453125,
 											"height": 13,
 											"text": "+removePostingJob()",
@@ -1481,7 +1485,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 488,
-									"top": 299,
+									"top": 312,
 									"width": 133.9189453125,
 									"height": 23
 								},
@@ -1566,11 +1570,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBGmiIUgBWYs="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": 208,
-											"top": -272,
-											"height": 13
+											"left": 669,
+											"top": 269,
+											"width": 185.8633270263672,
+											"height": 13,
+											"text": "«control»"
 										},
 										{
 											"_type": "LabelView",
@@ -1580,7 +1585,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 669,
-											"top": 271,
+											"top": 284,
 											"width": 185.8633270263672,
 											"height": 13,
 											"text": "\bGetClosedJobList"
@@ -1617,7 +1622,7 @@
 									"left": 664,
 									"top": 264,
 									"width": 195.8633270263672,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBGmiIUgCDdA="
 									},
@@ -1642,7 +1647,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 664,
-									"top": 289,
+									"top": 302,
 									"width": 195.8633270263672,
 									"height": 10
 								},
@@ -1667,7 +1672,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 669,
-											"top": 304,
+											"top": 317,
 											"width": 185.8633270263672,
 											"height": 13,
 											"text": "+\bgetClosedJobListDetail()",
@@ -1676,7 +1681,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 664,
-									"top": 299,
+									"top": 312,
 									"width": 195.8633270263672,
 									"height": 23
 								},
@@ -1718,7 +1723,7 @@
 							"left": 664,
 							"top": 264,
 							"width": 195.8633270263672,
-							"height": 58,
+							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBGmiIUgBWYs="
 							},
@@ -1992,11 +1997,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGIBHF/HElt290="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": -32,
-											"top": -16,
-											"height": 13
+											"left": 557,
+											"top": 477,
+											"width": 135,
+											"height": 13,
+											"text": "«entity»"
 										},
 										{
 											"_type": "LabelView",
@@ -2006,7 +2012,7 @@
 											},
 											"font": "Arial;13;1",
 											"left": 557,
-											"top": 479,
+											"top": 492,
 											"width": 135,
 											"height": 13,
 											"text": "ClosedJobList"
@@ -2043,7 +2049,7 @@
 									"left": 552,
 									"top": 472,
 									"width": 145,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGIBHF/HEluUUc="
 									},
@@ -2078,7 +2084,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 502,
+											"top": 515,
 											"width": 135,
 											"height": 13,
 											"text": "+task",
@@ -2095,7 +2101,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 517,
+											"top": 530,
 											"width": 135,
 											"height": 13,
 											"text": "+deadline",
@@ -2104,7 +2110,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 552,
-									"top": 497,
+									"top": 510,
 									"width": 145,
 									"height": 38
 								},
@@ -2129,7 +2135,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 557,
-											"top": 540,
+											"top": 553,
 											"width": 135,
 											"height": 13,
 											"text": "+getClosedJobList()",
@@ -2138,7 +2144,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 552,
-									"top": 535,
+									"top": 548,
 									"width": 145,
 									"height": 23
 								},
@@ -2180,7 +2186,7 @@
 							"left": 552,
 							"top": 472,
 							"width": 145,
-							"height": 86,
+							"height": 99,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIBHF/HElt290="
 							},
@@ -2303,6 +2309,9 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "jobList",
+					"stereotype": {
+						"$ref": "AAAAAAGH9WJ153Bc194="
+					},
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
@@ -2403,6 +2412,9 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "GetJobList",
+					"stereotype": {
+						"$ref": "AAAAAAGH9WJ16HEz2bE="
+					},
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -2429,6 +2441,9 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "\bModifyJobList",
+					"stereotype": {
+						"$ref": "AAAAAAGH9WJ16HEz2bE="
+					},
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -2471,6 +2486,9 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "RemoveJobList",
+					"stereotype": {
+						"$ref": "AAAAAAGH9WJ16HEz2bE="
+					},
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -2497,6 +2515,9 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "\bGetClosedJobList",
+					"stereotype": {
+						"$ref": "AAAAAAGH9WJ16HEz2bE="
+					},
 					"operations": [
 						{
 							"_type": "UMLOperation",
@@ -2552,6 +2573,9 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "ClosedJobList",
+					"stereotype": {
+						"$ref": "AAAAAAGH9WJ153Bc194="
+					},
 					"attributes": [
 						{
 							"_type": "UMLAttribute",
