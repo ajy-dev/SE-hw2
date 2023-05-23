@@ -10,12 +10,15 @@
 
 int main() {
     
+    // 4.1
     JobInformationUI jobInformationUI;
     jobInformationUI.startInterface();
-
+    
+    // 4.2
     ApplyCompanyUI applyCompanyUI;
     applyCompanyUI.startInterface();
-
+    
+    // 4.3
     ApplicationUI applicationUI;
     applicationUI.startInterface();
     
