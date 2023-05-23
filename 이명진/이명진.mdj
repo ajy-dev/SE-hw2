@@ -25,8 +25,7 @@
 					"_id": "AAAAAAGH9ZkaP6Z0b8I=",
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
-					},
-					"name": "회원"
+					}
 				},
 				{
 					"_type": "UMLClassDiagram",
@@ -2319,7 +2318,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGIBE5uF0aM/hg="
 							},
-							"name": "task"
+							"name": "task",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2327,7 +2327,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGIBE5uF0aM/hg="
 							},
-							"name": "numOfMem"
+							"name": "numOfMem",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2335,7 +2336,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGIBE5uF0aM/hg="
 							},
-							"name": "deadline"
+							"name": "deadline",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -2583,7 +2585,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGIBHF/HElqvok="
 							},
-							"name": "task"
+							"name": "task",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -2591,7 +2594,8 @@
 							"_parent": {
 								"$ref": "AAAAAAGIBHF/HElqvok="
 							},
-							"name": "deadline"
+							"name": "deadline",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -16137,7 +16141,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH9ZeeWaX/5aY="
 							},
-							"name": "채용 정보 등록기능",
+							"name": "채용 정보 등록 기능",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -16158,9 +16162,9 @@
 											"font": "Arial;13;0",
 											"left": 24.72998046875,
 											"top": 5,
-											"width": 98.18359375,
+											"width": 101.79541015625,
 											"height": 13,
-											"text": "채용 정보 등록기능"
+											"text": "채용 정보 등록 기능"
 										},
 										{
 											"_type": "LabelView",
@@ -16227,9 +16231,9 @@
 													"font": "Arial;13;1",
 													"left": 21,
 													"top": 262,
-													"width": 83.167236328125,
+													"width": 105.6572265625,
 													"height": 13,
-													"text": "Lifeline1: 회원"
+													"text": "회사 회원"
 												},
 												{
 													"_type": "LabelView",
@@ -16262,7 +16266,7 @@
 											"font": "Arial;13;0",
 											"left": 16,
 											"top": 255,
-											"width": 93.167236328125,
+											"width": 115.6572265625,
 											"height": 25,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAGH9ZupMKfGqFY="
@@ -16281,7 +16285,7 @@
 									"font": "Arial;13;0",
 									"left": 16,
 									"top": 232,
-									"width": 93.167236328125,
+									"width": 115.6572265625,
 									"height": 49,
 									"stereotypeDisplay": "icon",
 									"nameCompartment": {
@@ -17352,7 +17356,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 150,
+											"left": 161,
 											"top": 237,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -17373,7 +17377,7 @@
 											},
 											"visible": null,
 											"font": "Arial;13;0",
-											"left": 150,
+											"left": 161,
 											"top": 222,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -17394,7 +17398,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 149,
+											"left": 160,
 											"top": 266,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -17415,7 +17419,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 135,
+											"left": 158,
 											"top": 236,
 											"height": 13,
 											"alpha": 0.5235987755982988,
@@ -17436,7 +17440,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 137,
+											"left": 161,
 											"top": 223,
 											"height": 13,
 											"alpha": 0.7853981633974483,
@@ -17457,7 +17461,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 130,
+											"left": 153,
 											"top": 264,
 											"height": 13,
 											"alpha": -0.5235987755982988,
@@ -17499,7 +17503,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 163,
-											"top": 224,
+											"top": 223,
 											"height": 13,
 											"alpha": -0.7853981633974483,
 											"distance": 40,
@@ -17518,7 +17522,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 169,
+											"left": 168,
 											"top": 264,
 											"height": 13,
 											"alpha": 0.5235987755982988,
@@ -17536,7 +17540,7 @@
 										"$ref": "AAAAAAGH9ZupMKfE3Lc="
 									},
 									"lineStyle": 1,
-									"points": "109:257;191:259",
+									"points": "132:257;191:259",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGH9cqIo7TZbwY="
@@ -17587,8 +17591,8 @@
 												"$ref": "AAAAAAGH9cqIo7TjCIk="
 											},
 											"font": "Arial;13;0",
-											"left": 66.1728515625,
-											"top": 219,
+											"left": 77.1728515625,
+											"top": 219.5,
 											"width": 167.654296875,
 											"height": 13,
 											"alpha": 1.5707958722494422,
@@ -17606,8 +17610,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 150,
-											"top": 216,
+											"left": 161,
+											"top": 216.5,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25
@@ -17623,17 +17627,18 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 150,
-											"top": 231,
+											"left": 161,
+											"top": 231.5,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 131,
+									"left": 142,
 									"top": 248,
 									"width": 39,
+									"height": 1,
 									"alpha": 1.5707963267948966,
 									"distance": 10,
 									"hostEdge": {
@@ -18246,7 +18251,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH9ZeeWaX/5aY="
 							},
-							"name": "Lifeline1",
+							"name": "회사 회원",
 							"represent": {
 								"$ref": "AAAAAAGH9ZupL6fCEaM="
 							},
@@ -18635,9 +18640,9 @@
 													"font": "Arial;13;1",
 													"left": 29,
 													"top": 278,
-													"width": 83.167236328125,
+													"width": 105.6572265625,
 													"height": 13,
-													"text": "Lifeline1: 회원"
+													"text": "회사 회원"
 												},
 												{
 													"_type": "LabelView",
@@ -18670,7 +18675,7 @@
 											"font": "Arial;13;0",
 											"left": 24,
 											"top": 271,
-											"width": 93.167236328125,
+											"width": 115.6572265625,
 											"height": 25,
 											"stereotypeLabel": {
 												"$ref": "AAAAAAGH9du6eH7guDI="
@@ -18689,7 +18694,7 @@
 									"font": "Arial;13;0",
 									"left": 24,
 									"top": 248,
-									"width": 93.167236328125,
+									"width": 115.6572265625,
 									"height": 49,
 									"stereotypeDisplay": "icon",
 									"nameCompartment": {
@@ -20366,7 +20371,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 165,
+											"left": 176,
 											"top": 249,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -20387,7 +20392,7 @@
 											},
 											"visible": null,
 											"font": "Arial;13;0",
-											"left": 165,
+											"left": 176,
 											"top": 234,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -20408,7 +20413,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 166,
+											"left": 177,
 											"top": 278,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -20429,7 +20434,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 142,
+											"left": 165,
 											"top": 249,
 											"height": 13,
 											"alpha": 0.5235987755982988,
@@ -20450,8 +20455,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 144,
-											"top": 236,
+											"left": 167,
+											"top": 235,
 											"height": 13,
 											"alpha": 0.7853981633974483,
 											"distance": 40,
@@ -20471,8 +20476,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 138,
-											"top": 277,
+											"left": 161,
+											"top": 276,
 											"height": 13,
 											"alpha": -0.5235987755982988,
 											"distance": 25,
@@ -20512,7 +20517,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 186,
+											"left": 185,
 											"top": 235,
 											"height": 13,
 											"alpha": -0.7853981633974483,
@@ -20533,7 +20538,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 193,
-											"top": 275,
+											"top": 276,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -20550,7 +20555,7 @@
 										"$ref": "AAAAAAGH9du6eH7e3mQ="
 									},
 									"lineStyle": 1,
-									"points": "117:271;215:269",
+									"points": "140:271;215:269",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGH9eLjrahi6y8="
@@ -20602,7 +20607,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 165,
+											"left": 176,
 											"top": 249,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -20623,7 +20628,7 @@
 											},
 											"visible": null,
 											"font": "Arial;13;0",
-											"left": 165,
+											"left": 176,
 											"top": 234,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -20644,7 +20649,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 166,
+											"left": 177,
 											"top": 278,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -20665,7 +20670,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 142,
+											"left": 165,
 											"top": 249,
 											"height": 13,
 											"alpha": 0.5235987755982988,
@@ -20686,8 +20691,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 144,
-											"top": 236,
+											"left": 167,
+											"top": 235,
 											"height": 13,
 											"alpha": 0.7853981633974483,
 											"distance": 40,
@@ -20707,8 +20712,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 138,
-											"top": 277,
+											"left": 161,
+											"top": 276,
 											"height": 13,
 											"alpha": -0.5235987755982988,
 											"distance": 25,
@@ -20748,7 +20753,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 186,
+											"left": 185,
 											"top": 235,
 											"height": 13,
 											"alpha": -0.7853981633974483,
@@ -20769,7 +20774,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 193,
-											"top": 275,
+											"top": 276,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -20786,7 +20791,7 @@
 										"$ref": "AAAAAAGH9du6eH7e3mQ="
 									},
 									"lineStyle": 1,
-									"points": "117:271;215:269",
+									"points": "140:271;215:269",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGH9eNDD7k3DZw="
@@ -20838,7 +20843,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 165,
+											"left": 176,
 											"top": 249,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -20859,7 +20864,7 @@
 											},
 											"visible": null,
 											"font": "Arial;13;0",
-											"left": 165,
+											"left": 176,
 											"top": 234,
 											"height": 13,
 											"alpha": 1.5707963267948966,
@@ -20880,7 +20885,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 166,
+											"left": 177,
 											"top": 278,
 											"height": 13,
 											"alpha": -1.5707963267948966,
@@ -20901,7 +20906,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 142,
+											"left": 165,
 											"top": 249,
 											"height": 13,
 											"alpha": 0.5235987755982988,
@@ -20922,8 +20927,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 144,
-											"top": 236,
+											"left": 167,
+											"top": 235,
 											"height": 13,
 											"alpha": 0.7853981633974483,
 											"distance": 40,
@@ -20943,8 +20948,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 138,
-											"top": 277,
+											"left": 161,
+											"top": 276,
 											"height": 13,
 											"alpha": -0.5235987755982988,
 											"distance": 25,
@@ -20984,7 +20989,7 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 186,
+											"left": 185,
 											"top": 235,
 											"height": 13,
 											"alpha": -0.7853981633974483,
@@ -21005,7 +21010,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": 193,
-											"top": 275,
+											"top": 276,
 											"height": 13,
 											"alpha": 0.5235987755982988,
 											"distance": 25,
@@ -21022,7 +21027,7 @@
 										"$ref": "AAAAAAGH9du6eH7e3mQ="
 									},
 									"lineStyle": 1,
-									"points": "117:271;215:269",
+									"points": "140:271;215:269",
 									"showVisibility": true,
 									"nameLabel": {
 										"$ref": "AAAAAAGH9er10M+1ljc="
@@ -21073,8 +21078,8 @@
 												"$ref": "AAAAAAGH9er10c+/mEQ="
 											},
 											"font": "Arial;13;0",
-											"left": 93.3828125,
-											"top": 240,
+											"left": 104.3828125,
+											"top": 240.5,
 											"width": 145.234375,
 											"height": 13,
 											"alpha": 1.4940236708192811,
@@ -21092,8 +21097,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 165,
-											"top": 228,
+											"left": 176,
+											"top": 228.5,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 25
@@ -21109,17 +21114,18 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": 165,
-											"top": 243,
+											"left": 176,
+											"top": 243.5,
 											"height": 13,
 											"alpha": 1.5707963267948966,
 											"distance": 10
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 146,
+									"left": 157,
 									"top": 260,
 									"width": 39,
+									"height": 1,
 									"alpha": 1.5707963267948966,
 									"distance": 10,
 									"hostEdge": {
@@ -21236,7 +21242,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH9dqMrH6vDBM="
 							},
-							"name": "Lifeline1",
+							"name": "회사 회원",
 							"represent": {
 								"$ref": "AAAAAAGH9du6eH7cUUo="
 							},
@@ -21584,7 +21590,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH9eyrYuRZAL8="
 							},
-							"name": "채용정보 수정 기능",
+							"name": "채용 정보 수정 기능",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -21605,9 +21611,9 @@
 											"font": "Arial;13;0",
 											"left": 24.72998046875,
 											"top": 5,
-											"width": 98.18359375,
+											"width": 101.79541015625,
 											"height": 13,
-											"text": "채용정보 수정 기능"
+											"text": "채용 정보 수정 기능"
 										},
 										{
 											"_type": "LabelView",
@@ -21676,7 +21682,7 @@
 													"top": 294,
 													"width": 83.167236328125,
 													"height": 13,
-													"text": "Lifeline1: 회원"
+													"text": "회사 회원"
 												},
 												{
 													"_type": "LabelView",
@@ -24762,7 +24768,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH9eyrYuRZAL8="
 							},
-							"name": "Lifeline1",
+							"name": "회사 회원",
 							"represent": {
 								"$ref": "AAAAAAGH9ey/LuSmZ7I="
 							},
@@ -25142,7 +25148,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH/9t9lxOBrMk="
 							},
-							"name": "채용정보 삭제 기능",
+							"name": "채용 정보 삭제 기능",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -25163,9 +25169,9 @@
 											"font": "Arial;13;0",
 											"left": 24.72998046875,
 											"top": 5,
-											"width": 98.18359375,
+											"width": 101.79541015625,
 											"height": 13,
-											"text": "채용정보 삭제 기능"
+											"text": "채용 정보 삭제 기능"
 										},
 										{
 											"_type": "LabelView",
@@ -25234,7 +25240,7 @@
 													"top": 310,
 													"width": 83.167236328125,
 													"height": 13,
-													"text": "Lifeline1: 회원"
+													"text": "회사 회원"
 												},
 												{
 													"_type": "LabelView",
@@ -26650,7 +26656,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH/9t9lxOBrMk="
 							},
-							"name": "Lifeline1",
+							"name": "회사 회원",
 							"represent": {
 								"$ref": "AAAAAAGH/9xE4xQ/vkM="
 							},
@@ -26843,7 +26849,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIABAsW6+XDPE="
 							},
-							"name": "마감내역조회",
+							"name": "마감 내역 조회 기능",
 							"ownedViews": [
 								{
 									"_type": "UMLFrameView",
@@ -26864,9 +26870,9 @@
 											"font": "Arial;13;0",
 											"left": 24.72998046875,
 											"top": 5,
-											"width": 68.469970703125,
+											"width": 101.79541015625,
 											"height": 13,
-											"text": "마감내역조회"
+											"text": "마감 내역 조회 기능"
 										},
 										{
 											"_type": "LabelView",
@@ -26935,7 +26941,7 @@
 													"top": 206,
 													"width": 83.167236328125,
 													"height": 13,
-													"text": "Lifeline1: 회원"
+													"text": "회사 회원"
 												},
 												{
 													"_type": "LabelView",
@@ -28351,7 +28357,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGIABAsW6+XDPE="
 							},
-							"name": "Lifeline1",
+							"name": "회사 회원",
 							"represent": {
 								"$ref": "AAAAAAGIABCQ7K/6QWs="
 							},
