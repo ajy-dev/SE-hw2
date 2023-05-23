@@ -7976,30 +7976,13 @@
 											"height": 13,
 											"text": "+getApplicationStatistics()",
 											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAGIRHeJ4l6ABz0=",
-											"_parent": {
-												"$ref": "AAAAAAGIQ/nVfFDmGcs="
-											},
-											"model": {
-												"$ref": "AAAAAAGIRHeJ2F506xk="
-											},
-											"font": "Arial;13;0",
-											"left": 349,
-											"top": 1708,
-											"width": 183,
-											"height": 13,
-											"text": "+Operation1()",
-											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 344,
 									"top": 1688,
 									"width": 193,
-									"height": 38
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -8039,7 +8022,7 @@
 							"left": 344,
 							"top": 1640,
 							"width": 193,
-							"height": 86,
+							"height": 71,
 							"nameCompartment": {
 								"$ref": "AAAAAAGIQ/nVfFDgWZY="
 							},
@@ -8504,6 +8487,35 @@
 							"width": 217,
 							"height": 105,
 							"text": "getApplicationDetails()도 JobPosting의 속성과 같으므로, 그냥 JobPosting 레퍼런스를 리턴하면 됨"
+<<<<<<< Updated upstream
+=======
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGIRSy1jwpMGqE=",
+							"_parent": {
+								"$ref": "AAAAAAGIBQiFnKg58Q8="
+							},
+							"font": "Arial;13;0",
+							"left": 1240,
+							"top": 336,
+							"width": 138.4599609375,
+							"height": 51,
+							"text": "CompanyMember가 JobPosting을 사용한다"
+						},
+						{
+							"_type": "UMLNoteView",
+							"_id": "AAAAAAGIRSz2Fgw/n4Q=",
+							"_parent": {
+								"$ref": "AAAAAAGIBQiFnKg58Q8="
+							},
+							"font": "Arial;13;0",
+							"left": 952,
+							"top": 336,
+							"width": 127.783203125,
+							"height": 51,
+							"text": "GeneralMember가 Application을 사용한다"
+>>>>>>> Stashed changes
 						}
 					]
 				},
@@ -36257,9 +36269,9 @@
 														"$ref": "AAAAAAGICUG7p1N09Cs="
 													},
 													"font": "Arial;13;0",
-													"left": 96.72998046875,
+													"left": 96.45703125,
 													"top": 69,
-													"width": 86.2236328125,
+													"width": 88.140625,
 													"height": 13,
 													"text": "채용 정보 조회"
 												},
@@ -36272,7 +36284,7 @@
 													"font": "Arial;13;1",
 													"left": 77,
 													"top": 69,
-													"width": 14.72998046875,
+													"width": 14.45703125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -52245,14 +52257,6 @@
 								"$ref": "AAAAAAGIQ/nVe1DdFnI="
 							},
 							"name": "getApplicationStatistics"
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAGIRHeJ2F506xk=",
-							"_parent": {
-								"$ref": "AAAAAAGIQ/nVe1DdFnI="
-							},
-							"name": "Operation1"
 						}
 					]
 				},
