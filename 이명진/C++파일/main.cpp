@@ -10,15 +10,15 @@
 
 int main() {
     
-    // 4.1
+    // 4.1 채용정보 검색
     JobInformationUI jobInformationUI;
     jobInformationUI.startInterface();
     
-    // 4.2
+    // 4.2 채용 지원
     ApplyCompanyUI applyCompanyUI;
     applyCompanyUI.startInterface();
     
-    // 4.3
+    // 4.3 지원 정보 조회
     ApplicationUI applicationUI;
     applicationUI.startInterface();
     
