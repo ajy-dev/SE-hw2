@@ -199,7 +199,13 @@ class CheckApplyList {
 public:
     void showApplyList(const JobPosting& jobPosting) {
         Application application(jobPosting.getCompany(), jobPosting.getNumber(), jobPosting.getTask());
-        application.getDetails();
+        // application.getDetails();
+        vector<JobPosting> jobPostings = JobInformation::getJobPostings();
+        for (const auto& jobPosting : jobPostings) {
+            if (jobPosting.getCompany() == application.getCompany()) {
+                cout << jobPosting.getCompany() << " " << jobPosting.getNumber() << " " << jobPosting.getTask() << jobPosting.getMaxMember() << " " << jobPosting.getEndDate() << " "<< endl;
+            }
+        }
     }
 };
 
