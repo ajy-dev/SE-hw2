@@ -15,3 +15,10 @@
 - [x] 박상돈
 - [x] 조승제
 - [x] 안정윤
+
+ <br><br>
+
+- Convention
+
+1. 들여쓰기(indent)규칙 지키기 : Tap
+2. 네이밍 : camelCase
