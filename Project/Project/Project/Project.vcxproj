@@ -134,9 +134,7 @@
     <ClInclude Include="CompanyMember.hpp" />
     <ClInclude Include="GeneralMember.hpp" />
     <ClInclude Include="JobPosting.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Member.hpp" />
+    <ClInclude Include="Member.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

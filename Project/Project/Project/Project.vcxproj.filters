@@ -20,22 +20,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="JobPosting.hpp">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="CompanyMember.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="GeneralMember.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Member.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JobPosting.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="Application.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Member.hpp">
-      <Filter>헤더 파일</Filter>
-    </None>
   </ItemGroup>
 </Project>
