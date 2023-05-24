@@ -4,22 +4,15 @@
 # include "Member.hpp"
 # include <string>
 
-using namespace std;
-
 class GeneralMember : public Member
 {
 private:
-	string name;
-	string ssn;
+	std::string name;
+	std::string ssn;
 public:
-	string	getName(void)
-	{
-		return (name);
-	}
-	string	getSSN(void)
-	{
-		return (ssn);
-	}
+	GeneralMember(std::string id, std::string password, std::string name, std::string ssn);
+	std::string getName(void);
+	std::string getSSN(void);
 };
 
 #endif

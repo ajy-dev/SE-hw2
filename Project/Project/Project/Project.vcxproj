@@ -128,9 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddJobPost.cpp" />
+    <ClCompile Include="CompanyMember.cpp" />
+    <ClCompile Include="GeneralMember.cpp" />
     <ClCompile Include="GetJobList.cpp" />
+    <ClCompile Include="GetListUI.cpp" />
     <ClCompile Include="JobPosting.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SignUp.cpp" />
+    <ClCompile Include="SignUpUI.cpp" />
+    <ClCompile Include="Withdrawal.cpp" />
+    <ClCompile Include="WithdrawalUI.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AddJobPost.hpp" />
@@ -141,6 +148,10 @@
     <ClInclude Include="JobListUI.hpp" />
     <ClInclude Include="JobPosting.hpp" />
     <ClInclude Include="Member.hpp" />
+    <ClInclude Include="SignUp.hpp" />
+    <ClInclude Include="SignUpUI.hpp" />
+    <ClInclude Include="Withdrawal.hpp" />
+    <ClInclude Include="WithdrawalUI.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

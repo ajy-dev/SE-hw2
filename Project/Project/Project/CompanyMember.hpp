@@ -4,22 +4,15 @@
 # include "Member.hpp"
 # include <string>
 
-using namespace std;
-
 class CompanyMember : public Member
 {
 private:
-	string	companyName;
-	string	businessNumber;
+	std::string	companyName;
+	std::string	businessNumber;
 public:
-	string	getCompanyName(void)
-	{
-		return (companyName);
-	}
-	string	getBusinessNumber(void)
-	{
-		return (businessNumber);
-	}
+	CompanyMember(std::string id, std::string pw, std::string cName, std::string bNumber);
+	std::string	getCompanyName(void);
+	std::string	getBusinessNumber(void);
 };
 
 #endif

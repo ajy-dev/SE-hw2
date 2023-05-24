@@ -8,10 +8,19 @@ using namespace std;
 
 class Member
 {
-private:
+protected:
 	string id;
 	string password;
+	bool isCompany;
 public:
+	std::string getID(void)
+	{
+		return (id);
+	}
+	bool getIsCompany(void)
+	{
+		return (isCompany);
+	}
 };
 
 #endif

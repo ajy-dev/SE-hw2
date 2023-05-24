@@ -14,7 +14,7 @@ class GetJobList
 private:
 	static vector<JobPosting*> joblist;
 public:
-	void printJobListByCompany(string company);
+	static void printJobListByCompany(string company);
 	static vector<JobPosting*>& getVector(void);
 };
 
