@@ -1,8 +1,8 @@
 #ifndef GENERALMEMBER_HPP
 # define GENERALMEMBER_HPP
 
-# include "Member.hpp"
 # include <string>
+# include "Member.hpp"
 
 class GeneralMember : public Member
 {

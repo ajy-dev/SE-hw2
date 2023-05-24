@@ -1,21 +1,16 @@
 #ifndef GETJOBLIST_HPP
 # define GETJOBLIST_HPP
 
-# include <string>
 # include <vector>
-# include <iostream>
-# include <algorithm>
 # include "JobPosting.hpp"
-
-using namespace std;
 
 class GetJobList
 {
 private:
-	static vector<JobPosting*> joblist;
+	static std::vector<JobPosting*> joblist;
 public:
-	static void printJobListByCompany(string company);
-	static vector<JobPosting*>& getVector(void);
+	static void printJobListByCompany(std::string company);
+	static std::vector<JobPosting*>& getVector(void);
 };
 
 #endif

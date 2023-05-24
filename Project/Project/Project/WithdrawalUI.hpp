@@ -1,10 +1,8 @@
 #ifndef WITHDRAWALUI_HPP
 # define WITHDRAWALUI_HPP
 
-# include <iostream>
-# include <fstream>
 # include <string>
-# include "SignUp.hpp"
+# include <iostream>
 # include "Withdrawal.hpp"
 
 class WithdrawalUI

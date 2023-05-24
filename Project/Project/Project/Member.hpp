@@ -1,16 +1,14 @@
 #ifndef MEMBER_HPP
 # define MEMBER_HPP
 
-# include "Member.hpp"
-# include <string>
-
-using namespace std;
+#include <iostream>
+#include <string>
 
 class Member
 {
 protected:
-	string id;
-	string password;
+	std::string id;
+	std::string password;
 	bool isCompany;
 public:
 	std::string getID(void)
@@ -20,6 +18,10 @@ public:
 	bool getIsCompany(void)
 	{
 		return (isCompany);
+	}
+	bool isPasswordCorrect(std::string input)
+	{
+		return (!this->password.compare(input));
 	}
 };
 

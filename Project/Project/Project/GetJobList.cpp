@@ -12,7 +12,7 @@ void GetJobList::printJobListByCompany(string company)
 	}
 	if (!result)
 	{
-		std::cout << "No match found\n";
+		std::cout << "> No match found\n";
 		return;
 	}
 	std::cout << "> " << result->getDetail();

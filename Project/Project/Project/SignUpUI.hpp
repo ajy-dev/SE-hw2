@@ -2,11 +2,8 @@
 # define SIGNUPUI_HPP
 
 # include <iostream>
-# include <fstream>
 # include <string>
 # include "SignUp.hpp"
-# include "GeneralMember.hpp"
-# include "CompanyMember.hpp"
 
 class SignUpUI
 {

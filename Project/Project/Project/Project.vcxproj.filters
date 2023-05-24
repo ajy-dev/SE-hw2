@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="GetJobList.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -27,7 +24,7 @@
     <ClCompile Include="AddJobPost.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="GetListUI.cpp">
+    <ClCompile Include="JobListUI.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="SignUp.cpp">
@@ -46,6 +43,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="WithdrawalUI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginUI.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginUI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -84,6 +93,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="WithdrawalUI.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,8 +1,7 @@
 #ifndef APPLICATION_HPP
 # define APPLICATION_HPP
 
-# include "JobPosting.hpp"
-# include "GeneralMember.hpp"
+# include "Master.hpp"
 
 using namespace std;
 

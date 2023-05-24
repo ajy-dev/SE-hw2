@@ -1,8 +1,8 @@
 #ifndef COMPANYMEMBER_HPP
 # define COMPANYMEMBER_HPP
 
-# include "Member.hpp"
 # include <string>
+# include "Member.hpp"
 
 class CompanyMember : public Member
 {

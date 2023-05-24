@@ -1,11 +1,8 @@
 #ifndef ADDJOBPOST_HPP
 # define ADDJOBPOST_HPP
 
-# include "JobPosting.hpp"
-# include "GetJobList.hpp"
-# include <iostream>
 # include <string>
-# include <vector>
+# include "GetJobList.hpp"
 
 class AddJobPost
 {

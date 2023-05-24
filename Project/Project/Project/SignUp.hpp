@@ -1,12 +1,11 @@
 #ifndef SIGNUP_HPP
 # define SIGNUP_HPP
 
-# include <vector>
-# include <iostream>
 # include <string>
+# include <vector>
 # include "Member.hpp"
-# include "CompanyMember.hpp"
 # include "GeneralMember.hpp"
+# include "CompanyMember.hpp"
 
 class SignUp
 {

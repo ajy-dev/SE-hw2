@@ -1,6 +1,7 @@
 #ifndef JOBPOSTING_HPP
 # define JOBPOSTING_HPP
 
+# include <string>
 # include "CompanyMember.hpp"
 
 using namespace std;

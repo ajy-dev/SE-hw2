@@ -1,8 +1,8 @@
 1 1 1 foo 6000 foo bar
 1 1 2 bar 4719 bar foo
+2 1 foo 6000
 3 2
 3 1 10 10 10
 3 2
-1 2 bar
-1 1 foo
+1 2
 6 1
