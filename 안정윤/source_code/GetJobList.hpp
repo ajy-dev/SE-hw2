@@ -10,10 +10,10 @@
 class GetJobList
 {
 private:
-	std::vector<JobPosting *>	joblist;
+	static std::vector<JobPosting *>	joblist;
 public:
-	void				printJobListByCompany(std::string company);
-	std::vector<JobPosting *>	&getvector(void);
+	void								printJobListByCompany(std::string company);
+	static std::vector<JobPosting *>	&getvector(void);
 };
 
 #endif
