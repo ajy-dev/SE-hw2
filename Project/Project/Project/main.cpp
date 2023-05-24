@@ -5,7 +5,9 @@
 #include "SignUpUI.hpp"
 #include "WithdrawalUI.hpp"
 #include "LoginUI.hpp"
+#include "LogOutUI.hpp"
 #include "JobListUI.hpp"
+#include "JobInformationUI.hpp"
 
 #define INPUT_FILE_NAME "input.txt"
 #define OUTPUT_FILE_NAME "output.txt"
@@ -21,7 +23,9 @@ int main(void)
 	SignUpUI	signUpUI;
 	WithdrawalUI withdrawalUI;
 	LoginUI loginUI;
+	LogOutUI logoutUI;
 	JobListUI jobListUI;
+	JobInformationUI jobInformationUI;
 	int		menu_level_1;
 	int		menu_level_2;
 
@@ -70,6 +74,8 @@ int main(void)
 				break;
 			}
 			case 2:
+				logoutUI.logout(logon);
+				logon = nullptr;
 				break;
 			}
 			break;
@@ -90,6 +96,24 @@ int main(void)
 				jobListUI.showJobPostingList((CompanyMember*)logon);
 				break;
 			default:
+				break;
+			}
+			break;
+		case 4:
+			switch (menu_level_2)
+			{
+			case 1:
+			{
+				std::string input;
+				in_fp >> input;
+				jobInformationUI.searchCompanyByName(input);
+				break;
+			}
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
 				break;
 			}
 			break;

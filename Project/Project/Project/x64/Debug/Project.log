@@ -1,3 +1,10 @@
-﻿  Login.cpp
-C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\Login.cpp(18): warning C4715: 'Login::tryLogin': 모든 제어 경로에서 값을 반환하지는 않습니다.
+﻿  AddJobPost.cpp
+  GetJobList.cpp
+  JobInformation.cpp
+  JobInformationUI.cpp
+  JobListUI.cpp
+  JobPosting.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
+x64\Debug\LoginUI.obj : warning LNK4042: 개체가 두 번 이상 지정되었습니다. 나머지는 무시됩니다.
   Project.vcxproj -> C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\x64\Debug\Project.exe

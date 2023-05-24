@@ -15,8 +15,10 @@ private:
 public:
 	JobPosting(CompanyMember* company, std::string job, std::string endDate, int maxMember);
 	std::string getCompanyName(void);
+	std::string getCompanyNo(void);
 	std::string getJob(void);
 	std::string getDetail(void);
+	int getTotalNumber(void);
 };
 
 #endif

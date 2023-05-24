@@ -2,11 +2,15 @@ C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\AddJobPost.cpp;C:\Us
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\CompanyMember.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\CompanyMember.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\GeneralMember.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\GeneralMember.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\GetJobList.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\GetJobList.obj
+C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\JobInformation.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\JobInformation.obj
+C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\JobInformationUI.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\JobInformationUI.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\JobListUI.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\JobListUI.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\JobPosting.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\JobPosting.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\Login.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\Login.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\LoginUI.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\LoginUI.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\LoginUI.hpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\LoginUI.obj
+C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\LogOut.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\LogOut.obj
+C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\LogOutUI.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\LogOutUI.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\main.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\main.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\SignUp.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\SignUp.obj
 C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\SignUpUI.cpp;C:\Users\User\Documents\SEHW\SE-hw2\Project\Project\Project\x64\Debug\SignUpUI.obj
