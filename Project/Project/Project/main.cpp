@@ -58,3 +58,11 @@ int main(void)
 END:
 	return EXIT_SUCCESS;
 }
+
+/*
+* 
+* #include "GetJobList.hpp"
+* 
+* GetJobList::getVector() 사용하면 JobPosting vector의 레퍼런스 가져올 수 있음
+* 
+*/
