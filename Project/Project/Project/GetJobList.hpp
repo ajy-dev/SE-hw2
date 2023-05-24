@@ -15,7 +15,7 @@ private:
 	static vector<JobPosting*> joblist;
 public:
 	void printJobListByCompany(string company);
-	static vector<JobPosting*>& getvector(void);
+	static vector<JobPosting*>& getVector(void);
 };
 
 #endif

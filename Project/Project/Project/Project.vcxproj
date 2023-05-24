@@ -138,6 +138,7 @@
     <ClInclude Include="CompanyMember.hpp" />
     <ClInclude Include="GeneralMember.hpp" />
     <ClInclude Include="GetJobList.hpp" />
+    <ClInclude Include="JobListUI.hpp" />
     <ClInclude Include="JobPosting.hpp" />
     <ClInclude Include="Member.hpp" />
   </ItemGroup>

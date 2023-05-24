@@ -6,31 +6,28 @@
 #include <cstdio>
 #include "GetJobList.hpp"
 
-#define MAX_STRING 32
 #define INPUT_FILE_NAME "input.txt"
 #define OUTPUT_FILE_NAME "output.txt"
-
-using namespace std;
 
 vector<JobPosting*> GetJobList::joblist;
 
 int main(void)
 {
-	std::ifstream	in_fp;
-	std::ofstream	out_fp;
+	ifstream	in_fp;
+	ofstream	out_fp;
 	int		menu_level_1;
 	int		menu_level_2;
 
 	in_fp.open(INPUT_FILE_NAME, std::ios::in);
 	if (!in_fp.is_open())
 	{
-		std::perror("File opening failed");
+		perror("File opening failed");
 		return EXIT_FAILURE;
 	}
 	out_fp.open(OUTPUT_FILE_NAME, std::ios::out);
 	if (!out_fp.is_open())
 	{
-		std::perror("File opening failed");
+		perror("File opening failed");
 		return EXIT_FAILURE;
 	}
 	while (1)

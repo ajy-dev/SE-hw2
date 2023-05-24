@@ -18,7 +18,7 @@ void GetJobList::printJobListByCompany(string company)
 	std::cout << "> " << result->getDetail();
 }
 
-vector<JobPosting*>& GetJobList::getvector(void)
+vector<JobPosting*>& GetJobList::getVector(void)
 {
 	return (joblist);
 }
