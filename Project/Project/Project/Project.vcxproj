@@ -127,12 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GetJobList.cpp" />
+    <ClCompile Include="JobPosting.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.hpp" />
     <ClInclude Include="CompanyMember.hpp" />
     <ClInclude Include="GeneralMember.hpp" />
+    <ClInclude Include="GetJobList.hpp" />
     <ClInclude Include="JobPosting.hpp" />
     <ClInclude Include="Member.hpp" />
   </ItemGroup>
