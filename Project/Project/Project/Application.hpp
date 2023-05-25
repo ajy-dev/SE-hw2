@@ -14,6 +14,8 @@ private:
 	GeneralMember* applicant;
 public:
 	Application(JobPosting* jobpost, GeneralMember* applicant);
+	JobPosting* getJobPosting(void);
+	GeneralMember* getApplicant(void);
 	~Application(void);
 };
 

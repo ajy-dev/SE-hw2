@@ -13,6 +13,7 @@ private:
 	static std::vector<Application *> applyDB;
 public:
 	static void applyCompany(std::string bNumber, GeneralMember *applicant);
+	static std::vector<Application *> &getDB(void);
 };
 
 #endif

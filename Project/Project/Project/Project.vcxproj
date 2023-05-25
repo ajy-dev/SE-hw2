@@ -131,6 +131,7 @@
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="ApplyCompany.cpp" />
     <ClCompile Include="ApplyCompanyUI.cpp" />
+    <ClCompile Include="CheckApplyListForReading.cpp" />
     <ClCompile Include="CompanyMember.cpp" />
     <ClCompile Include="GeneralMember.cpp" />
     <ClCompile Include="GetJobList.cpp" />
@@ -144,6 +145,7 @@
     <ClCompile Include="LogOut.cpp" />
     <ClCompile Include="LogOutUI.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ReadApplicationUI.cpp" />
     <ClCompile Include="SignUp.cpp" />
     <ClCompile Include="SignUpUI.cpp" />
     <ClCompile Include="Withdrawal.cpp" />
@@ -154,6 +156,7 @@
     <ClInclude Include="Application.hpp" />
     <ClInclude Include="ApplyCompany.hpp" />
     <ClInclude Include="ApplyCompanyUI.hpp" />
+    <ClInclude Include="CheckApplyListForReading.hpp" />
     <ClInclude Include="CompanyMember.hpp" />
     <ClInclude Include="GeneralMember.hpp" />
     <ClInclude Include="GetJobList.hpp" />
@@ -165,6 +168,7 @@
     <ClInclude Include="LogOut.hpp" />
     <ClInclude Include="LogOutUI.hpp" />
     <ClInclude Include="Member.hpp" />
+    <ClInclude Include="ReadApplicationUI.hpp" />
     <ClInclude Include="SignUp.hpp" />
     <ClInclude Include="SignUpUI.hpp" />
     <ClInclude Include="Withdrawal.hpp" />

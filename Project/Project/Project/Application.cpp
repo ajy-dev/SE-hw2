@@ -10,3 +10,13 @@ Application::~Application(void)
 {
 	jobPost->addTotalNumber(-1);
 }
+
+JobPosting* Application::getJobPosting(void)
+{
+	return (jobPost);
+}
+
+GeneralMember* Application::getApplicant(void)
+{
+	return (applicant);
+}

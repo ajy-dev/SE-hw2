@@ -16,3 +16,8 @@ void ApplyCompany::applyCompany(std::string bNumber, GeneralMember *applicant)
 		}
 	}
 }
+
+std::vector<Application *> &ApplyCompany::getDB(void)
+{
+	return (applyDB);
+}

@@ -9,6 +9,7 @@
 #include "JobListUI.hpp"
 #include "JobInformationUI.hpp"
 #include "ApplyCompanyUI.hpp"
+#include "ReadApplicationUI.hpp"
 
 #define INPUT_FILE_NAME "input.txt"
 #define OUTPUT_FILE_NAME "output.txt"
@@ -29,6 +30,7 @@ int main(void)
 	JobListUI jobListUI;
 	JobInformationUI jobInformationUI;
 	ApplyCompanyUI applyCompanyUI;
+	ReadApplicationUI readApplicationUI;
 	int		menu_level_1;
 	int		menu_level_2;
 
@@ -120,6 +122,7 @@ int main(void)
 				break;
 			}
 			case 3:
+				readApplicationUI.selectApplyList((GeneralMember *)logon);
 				break;
 			case 4:
 				break;
