@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="AddJobPost.cpp" />
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="ApplyCancel.cpp" />
     <ClCompile Include="ApplyCompany.cpp" />
     <ClCompile Include="ApplyCompanyUI.cpp" />
     <ClCompile Include="CheckApplyListForReading.cpp" />
@@ -154,6 +155,7 @@
   <ItemGroup>
     <ClInclude Include="AddJobPost.hpp" />
     <ClInclude Include="Application.hpp" />
+    <ClInclude Include="ApplyCancel.hpp" />
     <ClInclude Include="ApplyCompany.hpp" />
     <ClInclude Include="ApplyCompanyUI.hpp" />
     <ClInclude Include="CheckApplyListForReading.hpp" />

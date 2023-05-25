@@ -23,7 +23,7 @@ int main(void)
 	ifstream	in_fp;
 	ofstream	out_fp;
 	Member* logon = nullptr;
-	SignUpUI	signUpUI;
+	SignUpUI signUpUI;
 	WithdrawalUI withdrawalUI;
 	LoginUI loginUI;
 	LogOutUI logoutUI;
@@ -46,6 +46,7 @@ int main(void)
 		perror("File opening failed");
 		return EXIT_FAILURE;
 	}
+	//std::cout.rdbuf(out_fp.rdbuf());
 	while (1)
 	{
 		in_fp >> menu_level_1 >> menu_level_2;
@@ -72,7 +73,7 @@ int main(void)
 			switch (menu_level_2)
 			{
 			case 1:
-			{
+			{	
 				std::string id, pw;
 				in_fp >> id >> pw;
 				logon = loginUI.login(id, pw);
@@ -125,7 +126,12 @@ int main(void)
 				readApplicationUI.selectApplyList((GeneralMember *)logon);
 				break;
 			case 4:
+			{
+				std::string input;
+				in_fp >> input;
+				readApplicationUI.cancelApplication((GeneralMember *)logon, input);
 				break;
+			}
 			}
 			break;
 		case 6:

@@ -1,22 +1,18 @@
-1 1 1 foo 6000 foo P001
-1 1 2 bar 4719 bar foo
-1 1 1 comp 1234 comp P002
-2 1 foo 6000
+1 1 1 CompanyA P0001 abcd 1234
+1 1 1 CompnayB P0002 hijk 9012
+1 1 2 MemberA D0001 efgh 5678
+1 1 2 MemberB D0004 mbti 0821
+2 1 abcd 1234
 3 2
-3 1 accounting 10 2023/5/30
-3 2
-2 2
-2 1 comp 1234
-3 1 developing 4 2023/6/1
+3 1 programming 3 2023/5/25
 3 2
 2 2
-2 1 bar 4719
-4 1 foo
-4 2 P001
-4 1 comp
-4 2 P002
+2 1 efgh 5678
+4 1 CompanyA
+4 2 P0001
 4 3
-2 2
-2 1 bar 4719
-1 2
+2 1 mbti 0821
+4 1 CompanyA
+4 2 P0001
+4 3
 6 1

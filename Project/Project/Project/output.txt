@@ -1,0 +1,34 @@
+1.1 회원 가입
+> 1 CompanyA P0001 abcd 1234
+1.1 회원 가입
+> 1 CompnayB P0002 hijk 9012
+1.1 회원 가입
+> 2 MemberA D0001 efgh 5678
+1.1 회원 가입
+> 2 MemberB D0004 mbti 0821
+2.1. 로그인
+> abcd 1234
+3.2. 등록된 채용 정보 조회
+> No match found
+3.1. 채용 정보 등록
+> programming 3 2023/5/25
+3.2. 등록된 채용 정보 조회
+> programming 3 2023/5/25
+2.2. 로그아웃
+> abcd
+2.1. 로그인
+> efgh 5678
+4.1. 채용 정보 검색
+> CompanyA P0001 programming 3 2023/5/25
+4.2. 채용 지원
+> CompanyA P0001 programming
+4.3 지원 정보 조회
+> CompanyA P0001 programming 3 2023/5/25
+2.1. 로그인
+> mbti 0821
+4.1. 채용 정보 검색
+> CompanyA P0001 programming 3 2023/5/25
+4.2. 채용 지원
+> CompanyA P0001 programming
+4.3 지원 정보 조회
+> CompanyA P0001 programming 3 2023/5/25
