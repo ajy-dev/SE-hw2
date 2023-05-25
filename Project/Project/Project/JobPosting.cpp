@@ -25,6 +25,11 @@ std::string	JobPosting::getDetail(void)
 	return (job + " " + std::to_string(maxNumber) + " " + endDate + "\n");
 }
 
+void JobPosting::addTotalNumber(int value)
+{
+	totalNumber += value;
+}
+
 int JobPosting::getTotalNumber(void)
 {
 	return (totalNumber);

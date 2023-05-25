@@ -8,12 +8,14 @@
 #include "LogOutUI.hpp"
 #include "JobListUI.hpp"
 #include "JobInformationUI.hpp"
+#include "ApplyCompanyUI.hpp"
 
 #define INPUT_FILE_NAME "input.txt"
 #define OUTPUT_FILE_NAME "output.txt"
 
 vector<Member*>	SignUp::memberDB;
 vector<JobPosting*> GetJobList::joblist;
+vector<Application *> ApplyCompany::applyDB;
 
 int main(void)
 {
@@ -26,6 +28,7 @@ int main(void)
 	LogOutUI logoutUI;
 	JobListUI jobListUI;
 	JobInformationUI jobInformationUI;
+	ApplyCompanyUI applyCompanyUI;
 	int		menu_level_1;
 	int		menu_level_2;
 
@@ -110,7 +113,12 @@ int main(void)
 				break;
 			}
 			case 2:
+			{
+				std::string input;
+				in_fp >> input;
+				applyCompanyUI.selectApply(input, (GeneralMember *)logon);
 				break;
+			}
 			case 3:
 				break;
 			case 4:

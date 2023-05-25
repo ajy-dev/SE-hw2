@@ -128,6 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddJobPost.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="ApplyCompany.cpp" />
+    <ClCompile Include="ApplyCompanyUI.cpp" />
     <ClCompile Include="CompanyMember.cpp" />
     <ClCompile Include="GeneralMember.cpp" />
     <ClCompile Include="GetJobList.cpp" />
@@ -149,6 +152,8 @@
   <ItemGroup>
     <ClInclude Include="AddJobPost.hpp" />
     <ClInclude Include="Application.hpp" />
+    <ClInclude Include="ApplyCompany.hpp" />
+    <ClInclude Include="ApplyCompanyUI.hpp" />
     <ClInclude Include="CompanyMember.hpp" />
     <ClInclude Include="GeneralMember.hpp" />
     <ClInclude Include="GetJobList.hpp" />
