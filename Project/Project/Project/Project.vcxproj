@@ -149,6 +149,9 @@
     <ClCompile Include="ReadApplicationUI.cpp" />
     <ClCompile Include="SignUp.cpp" />
     <ClCompile Include="SignUpUI.cpp" />
+    <ClCompile Include="StatForCompany.cpp" />
+    <ClCompile Include="StatForGeneral.cpp" />
+    <ClCompile Include="StatisticsUI.cpp" />
     <ClCompile Include="Withdrawal.cpp" />
     <ClCompile Include="WithdrawalUI.cpp" />
   </ItemGroup>
@@ -173,6 +176,9 @@
     <ClInclude Include="ReadApplicationUI.hpp" />
     <ClInclude Include="SignUp.hpp" />
     <ClInclude Include="SignUpUI.hpp" />
+    <ClInclude Include="StatForCompany.hpp" />
+    <ClInclude Include="StatForGeneral.hpp" />
+    <ClInclude Include="StatisticsUI.hpp" />
     <ClInclude Include="Withdrawal.hpp" />
     <ClInclude Include="WithdrawalUI.hpp" />
   </ItemGroup>

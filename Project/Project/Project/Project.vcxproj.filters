@@ -87,6 +87,15 @@
     <ClCompile Include="ApplyCancel.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="StatisticsUI.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StatForCompany.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StatForGeneral.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CompanyMember.hpp">
@@ -153,6 +162,15 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="ApplyCancel.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsUI.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StatForCompany.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StatForGeneral.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

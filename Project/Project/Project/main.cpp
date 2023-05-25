@@ -10,6 +10,7 @@
 #include "JobInformationUI.hpp"
 #include "ApplyCompanyUI.hpp"
 #include "ReadApplicationUI.hpp"
+#include "StatisticsUI.hpp"
 
 #define INPUT_FILE_NAME "input.txt"
 #define OUTPUT_FILE_NAME "output.txt"
@@ -20,8 +21,8 @@ vector<Application *> ApplyCompany::applyDB;
 
 int main(void)
 {
-	ifstream	in_fp;
-	ofstream	out_fp;
+	ifstream in_fp;
+	ofstream out_fp;
 	Member* logon = nullptr;
 	SignUpUI signUpUI;
 	WithdrawalUI withdrawalUI;
@@ -31,22 +32,23 @@ int main(void)
 	JobInformationUI jobInformationUI;
 	ApplyCompanyUI applyCompanyUI;
 	ReadApplicationUI readApplicationUI;
-	int		menu_level_1;
-	int		menu_level_2;
+	StatisticsUI statisticsUI;
+	int	menu_level_1;
+	int	menu_level_2;
 
 	in_fp.open(INPUT_FILE_NAME, std::ios::in);
 	if (!in_fp.is_open())
 	{
-		perror("File opening failed");
+		std::perror("File opening failed");
 		return EXIT_FAILURE;
 	}
 	out_fp.open(OUTPUT_FILE_NAME, std::ios::out);
 	if (!out_fp.is_open())
 	{
-		perror("File opening failed");
+		std::perror("File opening failed");
 		return EXIT_FAILURE;
 	}
-	//std::cout.rdbuf(out_fp.rdbuf());
+	std::cout.rdbuf(out_fp.rdbuf());
 	while (1)
 	{
 		in_fp >> menu_level_1 >> menu_level_2;
@@ -134,11 +136,21 @@ int main(void)
 			}
 			}
 			break;
+		case 5:
+			switch (menu_level_2)
+			{
+			case 1:
+				statisticsUI.displayStatistics(logon);
+				break;
+			}
+			break;
 		case 6:
+			std::cout << "6.1. Á¾·á\n";
 			goto END;
 		default:
 			break;
 		}
+		std::cout << "\n";
 	}
 END:
 	return EXIT_SUCCESS;
